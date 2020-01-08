@@ -1,0 +1,107 @@
+@charset"utf-8"
+body {
+background-color: #9b30ff;
+font-family: Arial, Tahoma, sans-serif;
+color:#000000;
+}
+h1{
+color: #ffffff;
+}
+header {
+background-color: #00F71D;
+color: #ffffff;
+text-align: center;
+padding: 5px;
+width: 80%;
+margin-left: 10%;
+border: solid 5px;
+border-color: #003300
+}
+#container {
+width: 100%;
+}
+main {
+width: 80%;
+background-color: #ffffff;
+float: left;
+padding: 5px;
+margin-left: 10%;
+}
+	table
+	{
+		text-align:center;
+		width: 80%;
+		border: solid 5px;
+		border-color: #003300 #333333;
+		background-color: #CCFF00;
+		
+	}
+#drink
+	{
+	font-weight:bold;
+	text-align: center;
+	}
+
+#price
+	{
+	text-align:right;
+	}
+
+	th, td
+{
+	border: solid 1px #003300;
+}
+
+.firstrow
+{
+	background-color: #999999;
+}
+
+
+.secondrow
+{
+	background-color: #ffffff;
+	color: #0000CD;
+}
+
+
+footer{
+clear: both;
+background-color: #70706B;
+color: #f9f513;
+text-align: center;
+margin-left: 10%;
+padding: 5px;
+font-size: 12pt;
+width: 80%;
+}
+nav {
+color: #000000;
+padding: 5px;
+width: 80%;
+margin-left: 10%;
+font-weight: bold;
+}
+nav ul {
+list-style: none;
+}
+nav ul li {
+float: left;
+padding: 5px;
+}
+nav ul li a:link, nav ul li a:visited {
+display: block;
+width: 110px;
+margin-right: 4px;
+color: #000000;
+padding: 2px 4px 2px 4px;
+background-color: #00F71D;
+text-align: center;
+text-decoration: none;
+border: solid 1px;
+border-color: #003300
+}
+nav ul li a:hover {
+color: #ffffff;
+background-color: #9b30ff;
+}

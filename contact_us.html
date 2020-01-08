@@ -1,0 +1,171 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Contact Bearing Coffee</title>
+				<link rel="stylesheet" type="text/css" href="styles.css"/>
+					<style type="text/css">
+						<!--
+						form
+						{
+						background-color:#F9E79F;
+						}
+				
+						legend, label
+						{
+						font-weight:bold;
+						}
+				
+						fieldset
+						{	
+						background-color:#f2f4f4;
+						}
+						
+						.fancyborder
+						{
+						border: solid 10px;
+						border-color: #A93226 #515A5A #A93226 #515A5A;
+						border-radius: 25px;
+						padding: 50px;
+						}
+					
+						.button
+						{
+						background-color: #E9F7EF;
+						border: solid 5px;
+						border-color: #17202A;
+						padding: 15px 32px;
+						text-decoration: none;
+						diplay: inline-block;
+						font-size: 16px;
+						}
+						-->
+				</style>
+		</head>
+		<body style="background-color:lime;">
+			<header>
+				<h1>
+					<img src="images/logo.jpg" alt="Bearing Logo"/>
+				</h1>
+				<h2>Contact Us</h2>
+			</header>
+			<nav>
+				<ul style="text-align:left;">
+					<li><a href="index.html">Home Page</a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="contact_us.html">Contact Us</a></li>
+					<li><a href="head_barista.html">Head Barista</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h3 style="margin-left:10px;">Let us know what you think!</h3>
+					<form action="" method="post" autocomplete="on">
+						<div style="margin-left:10px;">
+				<h4>Enter your four-digit passcode, then hit OK:</h4>
+					<input id="id1" type="number" min="1000" max="9999" style="background-color:blue; color:white; text-align:center;"/>
+						<button onclick="myFunction()">OK</button>
+							<p id="passcode"> </p>
+								<script>
+								function myFunction()
+								{
+									var inpObj = document.getElementByld("id1");
+									if (inpOBJ.checkValidity()--false) 
+										{
+										document.getElementByld("passcode").innerHTML= inObj.validationMessage:
+										}
+										else
+										{
+									document.getElementByld("passcode").innerHTML="Passcode Valid";
+										}
+								}
+								</script>
+							</div>
+						<fieldset>
+						<br /> <br />
+						<div class="fancyborder">
+						<legend class="legend"> <ul style="font-style: italic;">Personal Information</legend>
+						<br /> <br />
+						<div>
+							<label for "FLName" size= "35"> Name: </label> &nbsp; <br />
+							<input type="text" size="35" name="FLName" placeholder="First Name" required /> &nbsp; 
+							<input type="text" size="35" name="FLName" placeholder="Last Name"required /> &nbsp; <br />
+						</div>
+						<br /> <br />
+						<div>
+							<label for "email" size="50"> Email Address: </label> <br />
+							<input type="email" size="50" name="email" placeholder="Email Address" autocomplete="off" required /> &nbsp; <br />
+						</div>
+						<br /> <br />
+						<div>
+							<label for "phone" size="12"> Phone Number: </label> <br />
+							<input type="text" size="12" name="phone" placeholder="Phone Number"/> &nbsp; <br />
+						</div>
+						<br /> <br />
+							<legend class="info"> Information </legend>
+							<div class="gender">
+							<label for "gender"> Gender </label> <br />
+								<input type="radio" name="gender"/> <label>Male</label>
+								<input type="radio" name="gender"/> <label>Female</label>
+								<input type="radio" name="gender"/> <label>N/A</label>
+							</div>
+							<br /> <br />
+							<div class= "intrests">
+							<label for "intrests">Select all items that may apply</label> <br />
+							<input type="checkbox"/><label>Athletics/ Fitness</label>
+							<input type="checkbox"/><label>Music</label>
+							<input type="checkbox"/><label>Video Games</label>
+							<input type="checkbox"/><label>Relaxing/ Reading</label>
+							</div>
+							
+						<br /> <br />
+							
+							<div class="ageCategory">
+							<label for "ageCategory">Select your age from the list</label> <br />
+							<select name="ageCategory">
+								<option value="0-18">0-18</option>
+								<option value="19-30">19-30</option>
+								<option value="31-40">31-40</option>
+								<option value="41-50">41-50</option>
+								<option value="51-65">51-65</option>
+								<option value="65+">65+</option>
+							</select>
+							</div>
+							
+						<br /> <br />
+						
+						<legend class="legend">Comments:</legend>
+						<div>
+							<textarea name="comments" rows="4" cols="60">
+							</textarea>
+						</div>
+						</fieldset>
+						<div class="submit">
+							<input class="button" type="reset"	value="Reset" style="float:left; margin-left:20px;" />
+							<input class="button" type="submit" value="Submit" style="float:right; margin-right: 20px"/>
+						</div>
+						</div>
+					</form>
+					
+						
+							
+			</main>
+			<footer>
+			<p>
+					<a href="index.html">Home Page</a> &nbsp;|&nbsp;
+					<a href="about_us.html">About Us</a>&nbsp;|&nbsp;
+					<a href="history.html">History</a>&nbsp;|&nbsp;
+					<a href="menu.html">Menu</a>&nbsp;|&nbsp;
+					<a href="contact_us.html">Contact Us</a>&nbsp;|&nbsp;
+					<a href="head_barista.html">Head Barista</a>&nbsp;|&nbsp;
+					<a href="gallery.html">Gallery</a>&nbsp;|&nbsp;
+			</p>
+			<h5 style="text-align:center; font-style:italic;">Designed by: Anthony M. May
+				<br />
+				Revised: 8/3/2018</h5>
+			</footer>
+		</body>
+	</html>
+	
